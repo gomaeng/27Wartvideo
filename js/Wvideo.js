@@ -1,15 +1,16 @@
 // 1. 카테고리별 영상 데이터 관리 (animation이 위로 오도록 교체)
 const videoData = {
     animation: [
+        "https://www.youtube.com/embed/nzPyVnQ3mNU?enablejsapi=1&mute=1",
         "https://www.youtube.com/embed/0JQd5jgnr5E?enablejsapi=1&mute=1",
         "https://www.youtube.com/embed/ZUtbGVN3laQ?enablejsapi=1&mute=1",
-        "https://www.youtube.com/embed/QgmDhos7L_8?enablejsapi=1&mute=1",
-        "https://www.youtube.com/embed/fTyGglvu-gE?enablejsapi=1&mute=1",
-        "https://www.youtube.com/embed/fKakToKSUBQ?enablejsapi=1&mute=1",
-        "https://www.youtube.com/embed/ZMmmFClBwQQ?enablejsapi=1&mute=1",
-        "https://www.youtube.com/embed/Dh4dTgTbSfI?enablejsapi=1&mute=1",
-        "https://www.youtube.com/embed/wcWuBP-zv5U?enablejsapi=1&mute=1",
-        "https://www.youtube.com/embed/-cK_wQLtCGk?enablejsapi=1&mute=1"
+        "https://www.youtube.com/embed/lHXLtnuf99I?enablejsapi=1&mute=1",
+        "https://www.youtube.com/embed/Og08SK7t9hU?enablejsapi=1&mute=1",
+        "https://www.youtube.com/embed/5jP4Q4ufRgc?enablejsapi=1&mute=1",
+        "https://www.youtube.com/embed/Cv-RiK5-T-c?enablejsapi=1&mute=1",
+        "https://www.youtube.com/embed/3PoIwR-kzmU?enablejsapi=1&mute=1",
+        "https://www.youtube.com/embed/QUpa6-AGMzQ?enablejsapi=1&mute=1",
+        "https://www.youtube.com/embed/VaVQbRPibyg?enablejsapi=1&mute=1"
     ],
     virtual: [
         "https://www.youtube.com/embed/bAyoyEjoGTk?enablejsapi=1&mute=1",
