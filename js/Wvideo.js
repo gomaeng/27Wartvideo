@@ -104,7 +104,7 @@ function currentSlide(index) {
     updateSlide();
 }
 
-// 7. 카테고리 전환 버튼 클릭 시 실행 함수 (문구 위치 서로 교체 완료)
+// 7. 카테고리 전환 버튼 클릭 시 실행 함수
 function switchCategory(category) {
     currentCategory = category;
     currentIndex = 0; 
@@ -118,10 +118,13 @@ function switchCategory(category) {
         }
     });
 
-    if (currentCategory === 'animation') {
-        categoryNotice.innerText = '커버곡 작업은 커버곡 영상으로 업로드합니다.';
-    } else {
-        categoryNotice.innerText = '쇼케이스 영상은 천천히 업로드하고 있습니다.';
+    // 문구 설정 (여기서 명확하게 분기 처리)
+    if (categoryNotice) {
+        if (currentCategory === 'animation') {
+            categoryNotice.innerText = '커버곡 작업은 커버곡 영상으로 업로드합니다.';
+        } else {
+            categoryNotice.innerText = '쇼케이스 영상은 천천히 업로드하고 있습니다.';
+        }
     }
 
     renderSlides();
@@ -129,5 +132,5 @@ function switchCategory(category) {
     updateSlide();
 }
 
-// 페이지 로드 시 무조건 animation으로 시작
+// 페이지 로드 시 무조건 animation으로 시작 (맨 아래 코드는 이것 하나만 남겨두세요)
 switchCategory('animation');
