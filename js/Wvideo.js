@@ -1,6 +1,8 @@
 // 1. 카테고리별 영상 데이터 관리 (animation이 위로 오도록 교체)
 const videoData = {
     animation: [
+        "https://www.youtube.com/embed/crTBXv2pBx0?enablejsapi=1&mute=1",
+        "https://www.youtube.com/embed/PKz_pNpWAw8?enablejsapi=1&mute=1",
         "https://www.youtube.com/embed/nzPyVnQ3mNU?enablejsapi=1&mute=1",
         "https://www.youtube.com/embed/0JQd5jgnr5E?enablejsapi=1&mute=1",
         "https://www.youtube.com/embed/ZUtbGVN3laQ?enablejsapi=1&mute=1",
